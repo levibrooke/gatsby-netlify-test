@@ -1,6 +1,9 @@
 backend:
-  name: github
-  repo: levibrooke/gatsby-netlify-test
+  name: git-gateway
+  branch: master
+  accept_roles:
+    - admin
+    - editor
 
 publish_mode: editorial_workflow
 
